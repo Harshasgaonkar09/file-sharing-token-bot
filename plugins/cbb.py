@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://youtu.be/BeNBEYc-q7Y'>Click here</a>\n○ Channel : @ultroid_official\n○ Support Group : @ultroidofficial_chat</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://graph.org/T%CA%9C%E1%B4%87-OTT-S%E1%B4%87%CA%80%E1%B4%A0%C9%AA%E1%B4%84%E1%B4%87-02-18-2'>Click here</a>\n○ Channel : @theottservice\n○ Support Group : @Cinematic_xone</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
